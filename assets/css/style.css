@@ -1,5 +1,13 @@
-.logo {}
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Tangerine&display=swap');
 
-.cities {}
+.logo {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 50px;
+}
+
+.cities {
+    font-family: "Tangerine", sans-serif;
+    font-size: 50px;
+}
 
 #container-image {}
