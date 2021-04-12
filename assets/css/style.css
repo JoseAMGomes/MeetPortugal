@@ -15,8 +15,9 @@
 }
 
 .nav-item {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 30px;
+    margin-bottom: 0px;
 
 
 
@@ -29,7 +30,55 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 1;
 
+}
+
+.navbar {
+    text-align: center;
+    line-height: 50px;
+}
+
+.big-imagePorto {
+
+    background-image: url("../images/porto.jpg");
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+
+}
+
+.big-imageLisboa {
+
+    background-image: url("../images/lisboa.jpg");
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+
+}
+
+.big-imageAlgarve {
+
+    background-image: url("../images/Algarve.jpg");
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+
+}
+
+.big-imageMadeira {
+
+    background-image: url("../images/madeira.jpg");
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     opacity: 1;
 
 }
