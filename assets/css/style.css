@@ -1,13 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=Merienda:wght@700&display=swap');
 
 .logo {
-    font-family: 'Amatic SC', sans-serif;
+    font-family: 'cinzel', sans-serif;
     font-size: 50px;
 }
 
 .cities {
-    font-family: "Tangerine", sans-serif;
-    font-size: 50px;
+    font-family: "Merienda", sans-serif;
+    color: rgb(255, 2, 36);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 40px;
+
 }
 
-#container-image {}
+.nav-item {
+    margin-top: 40px;
+    margin-left: 30px;
+
+
+
+}
+
+.big-image {
+
+    background-image: url("../images/portugal.png");
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    opacity: 1;
+
+}
