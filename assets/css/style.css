@@ -17,9 +17,10 @@
 }
 
 .nav-item {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 30px;
     margin-bottom: 0px;
+
 }
 
 .navbar {
@@ -90,7 +91,9 @@
     text-align: center;
     font-family: "cinzel", sans-serif;
     color: rgb(22, 109, 105);
-    margin-bottom: 50px;
+    margin: 50px 0px;
+    z-index: -1;
+
 
 }
 
@@ -108,7 +111,8 @@ h2 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
     text-align: justify;
-    margin: 10px 80px;
+    margin: 50px auto;
+    width: 80%;
 }
 
 /*--------------------------------------------footer*/
@@ -142,5 +146,5 @@ footer {
 div #map {
     min-height: 360px;
     width: 90%;
-    margin: 0 10px;
+    margin: 20px auto;
 }
