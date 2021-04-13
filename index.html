@@ -17,8 +17,11 @@
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
     </script>
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="./index.js"></script>
+    <script src="index.js"></script>
     <title>MeetPortugal</title>
+    <!-- Tutor -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <!--  -->
 </head>
 
 <body>
@@ -34,7 +37,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
 
-                    </li>
+
                     <li class="nav-item">
                         <a class="nav-item cities" href="porto.html">Porto</a>
                     </li>
@@ -86,21 +89,24 @@
         <h2>CONTACT</h2>
         <p>Email: j.a.m.gomes.work@gmail.com</p>
     </footer>
-
     <script>
         function initMap() {
-            var options = {
-                zoom: 4,
+            var map = new google.maps.Map(document.getElementById('map'), {
                 center: {
                     lat: 38.736946,
                     lng: -9.142685
-                }
-            }
-            var map = new google.maps.Map(document.getElementById('map', options));
+                },
+                zoom: 5
+            });
+        }
     </script>
-    <script async
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5nYoKB2F7jNqjo1oe7Ips5uTPaCmvGFA&callback=initMap">
+    <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5nYoKB2F7jNqjo1oe7Ips5uTPaCmvGFA&callback=initMap&libraries=&v=weekly"
+        async>
     </script>
+
+
 </body>
 
 </html>

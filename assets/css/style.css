@@ -139,6 +139,8 @@ footer {
 
 }
 
-div#map {
+div #map {
     min-height: 360px;
+    width: 90%;
+    margin: 0 10px;
 }
