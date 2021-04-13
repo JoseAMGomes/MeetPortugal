@@ -89,9 +89,41 @@
                 },
                 zoom: 10
             });
-        }
-    </script>
 
+            // Create an array of alphabetical characters used to label the markers.
+            const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+            // Add some markers to the map.
+            // Note: The code uses the JavaScript Array.prototype.map() method to
+            // create an array of markers based on a given "locations" array.
+            // The map() method here has nothing to do with the Google Maps API.
+            const markers = locations.map((location, i) => {
+                return new google.maps.Marker({
+                    position: location,
+                    label: labels[i % labels.length],
+                });
+            });
+
+            new MarkerClusterer(map, markers, {
+                imagePath: "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+            });
+        }
+        const locations = [{
+                lat: 38.691586,
+                lng: -9.215977
+            },
+            {
+                lat: 38.6979,
+                lng: -9.2067
+            },
+            {
+                lat: 38.768632,
+                lng: -9.095858
+            },
+
+        ];
+    </script>
+    <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5nYoKB2F7jNqjo1oe7Ips5uTPaCmvGFA&callback=initMap&libraries=&v=weekly"
         async>
