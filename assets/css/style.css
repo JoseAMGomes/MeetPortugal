@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=Merienda:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=Source+Sans+Pro&display=swap');
 
+
+/*--------------------------------------------HEAD AND NAV*/
 .logo {
     font-family: 'cinzel', sans-serif;
     font-size: 50px;
@@ -23,6 +25,13 @@
 
 }
 
+
+
+.navbar {
+    text-align: center;
+    line-height: 50px;
+}
+
 .big-image {
 
     background-image: url("../images/portugal.png");
@@ -32,11 +41,6 @@
     background-size: cover;
     opacity: 1;
 
-}
-
-.navbar {
-    text-align: center;
-    line-height: 50px;
 }
 
 .big-imagePorto {
@@ -81,4 +85,33 @@
     background-size: cover;
     opacity: 1;
 
+}
+
+/*--------------------------------------------HEADINGS AND TEXT*/
+
+.title {
+
+    font-size: 80px;
+    text-align: center;
+    font-family: "cinzel", sans-serif;
+    color: rgb(22, 109, 105);
+    margin-bottom: 50px;
+
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+    font-family: "cinzel", sans-serif;
+    color: rgb(22, 109, 105);
+    margin-bottom: 30px;
+    margin-left: 10px;
+
+}
+
+.main-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin: 10px 80px;
 }
