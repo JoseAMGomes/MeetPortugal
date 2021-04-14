@@ -95,13 +95,9 @@
                 zoom: 12
             });
 
-            // Create an array of alphabetical characters used to label the markers.
+
             const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-            // Add some markers to the map.
-            // Note: The code uses the JavaScript Array.prototype.map() method to
-            // create an array of markers based on a given "locations" array.
-            // The map() method here has nothing to do with the Google Maps API.
             const markers = locations.map((location, i) => {
                 return new google.maps.Marker({
                     position: location,
@@ -128,29 +124,12 @@
 
         ];
     </script>
-    <script>
-        const data = null;
-
-        const xhr = new XMLHttpRequest();
-        xhr.withCredentials = true;
-
-        xhr.addEventListener("readystatechange", function () {
-            if (this.readyState === this.DONE) {
-                console.log(this.responseText);
-            }
-        });
-
-        xhr.open("GET", "https://hotels4.p.rapidapi.com/locations/search?query=manchester&locale=en_US");
-        xhr.setRequestHeader("x-rapidapi-key", "a388cb351cmshadc485bb1defb53p16f37cjsn80cfb0405efd");
-        xhr.setRequestHeader("x-rapidapi-host", "hotels4.p.rapidapi.com");
-
-        xhr.send(data);
-    </script>
     <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5nYoKB2F7jNqjo1oe7Ips5uTPaCmvGFA&callback=initMap&libraries=&v=weekly"
         async>
     </script>
+
     <script src="index.js"></script>
 
 
