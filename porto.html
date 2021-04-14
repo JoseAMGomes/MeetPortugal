@@ -55,18 +55,18 @@
         <h1 class="col-12 title">Porto</h1>
         <div class="col-lg-8 ">
             <div>
-                <h2 class="heading">Which are Porto's main atractions?</h2>
+                <h2 class="heading" id="q1">Which are Porto's main atractions?</h2>
 
-                <p class="main-text">
+                <p class="main-text" id="text1">
                     My name is Yankun Zhu, I was born in 1993 in China. I moved to England when I was seven and
                     I am
                     currently living with my boyfriend in Halifax.
                 </p>
             </div>
             <div>
-                <h2 class="heading">Why should i visit Porto?</h2>
+                <h2 class="heading" id="q2">Why should i visit Porto?</h2>
 
-                <p class="main-text">
+                <p class="main-text" id="text2">
                     My name is Yankun Zhu, I was born in 1993 in China. I moved to England when I was seven and
                     I am
                     currently living with my boyfriend in Halifax.
@@ -128,11 +128,30 @@
 
         ];
     </script>
+    <script>
+        const data = null;
+
+        const xhr = new XMLHttpRequest();
+        xhr.withCredentials = true;
+
+        xhr.addEventListener("readystatechange", function () {
+            if (this.readyState === this.DONE) {
+                console.log(this.responseText);
+            }
+        });
+
+        xhr.open("GET", "https://hotels4.p.rapidapi.com/locations/search?query=manchester&locale=en_US");
+        xhr.setRequestHeader("x-rapidapi-key", "a388cb351cmshadc485bb1defb53p16f37cjsn80cfb0405efd");
+        xhr.setRequestHeader("x-rapidapi-host", "hotels4.p.rapidapi.com");
+
+        xhr.send(data);
+    </script>
     <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5nYoKB2F7jNqjo1oe7Ips5uTPaCmvGFA&callback=initMap&libraries=&v=weekly"
         async>
     </script>
+    <script src="index.js"></script>
 
 
 </body>
