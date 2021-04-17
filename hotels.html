@@ -14,7 +14,7 @@
         // parameter when you first load the API. For example:
         // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
         let map;
-        let places;
+        let places = "";
         let infoWindow;
         let markers = [];
         let autocomplete;
@@ -295,7 +295,10 @@
         </nav>
 
     </div>
-    <div class="hotel-search">
+
+    <h1 class="col-12 title">Hotels</h1>
+
+    <div class="hotel-search col-12">
         <div id="findhotels">Find hotels in:</div>
 
         <div id="locationField">
@@ -312,12 +315,13 @@
     </div>
 
     <div id="map"></div>
-
-    <div id="listing">
+    <div id="listing col-2">
         <table id="resultsTable">
             <tbody id="results"></tbody>
         </table>
     </div>
+
+
 
     <div style="display: none">
         <div id="info-content">
@@ -345,6 +349,7 @@
             </table>
         </div>
     </div>
+
     <footer>
         <h2 id="FooterHeading">CONTACT</h2>
         <p>Email: j.a.m.gomes.work@gmail.com</p>
