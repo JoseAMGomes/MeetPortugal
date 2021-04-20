@@ -132,8 +132,7 @@ Also on hotels page a city needs to be provided. If any other characters that do
 
 ## Known Bugs
 
-    1-In Chrome, on the home page, when pressing the content headings a black margin shows up.
-    Simply changed border color to transparent.
+    1-In hotels page after one search has been done if the user refreshes the page the previows search will still be on text box.
 
 
 
@@ -141,18 +140,17 @@ Also on hotels page a city needs to be provided. If any other characters that do
 
 ### Code 
 
-Contact page had code based on CV project provided by code institute with some changes.
+Nav was based on my previews milestone project with changes to fit into the new website's goal.
 
-Details and summary code was based on youtube video "HTML5 Details and Summary Elements" on Steve Griffith channel.
-[Youtube link](https://www.youtube.com/watch?v=gPeYRBBaok0)
+Google maps code was taken from google maps API website.
 
 ### Content 
 
-    All content was written by the developer.
+    All content was written by the developer other than google maps code.
 
 ### Media
 
-    All images are from the developer friends and family with permition from the people in question.
+    All images are from the google images of Portugal landscapes.
 
 ## Deployment 
 
@@ -199,5 +197,5 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 ## Acknoledgements
 
-My Mentor for guiding me in where to start with and all the support Code Institude has provided me.
+My Mentor for guiding me and making sure I dont skip important steps. Special thanks to code institute online tutors that helped me make google maps API work and tried to help me integrate a different Hotel api(even if it did not work).
 
