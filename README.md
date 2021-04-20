@@ -1,45 +1,203 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome JoseAMGomes,
+# MEETPORTUGAL website
+[View the live project!](https://joseamgomes.github.io/CRAFTIEYANIE/)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+This website was created as a touristic guide for Portugal. Portugal has much to offer and most people only know about the famous Algarve area or Lisbon so even though they are great places to visit I wanted to include some other great areas!
+## User Experience (UX)
+ ### User Stories
+     
+     1.1- As a user  
+        1.1.1- I need to navigate easily and fluidly through the website;
+        1.1.2- I want to easily recognise what the website is about;
+        1.1.3- I must be able to understand what diferent posibilities for holiday destinations have to offer;
+        1.1.4- I should be able to find what hotels are available all over Portugal;
+        1.1.5- I require an easy way to find an email in case I want further information;
 
-## Gitpod Reminders
+    
+    2.1-Homepage Wireframe
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+[index Desktop Wireframe](assets/images/homedesktop.png) 
 
-`python3 -m http.server`
+[index Mobile Wireframe](assets/images/homemobile.png) 
 
-A blue button should appear to click: _Make Public_,
+    2.2-Porto page Wireframe
+[Porto Desktop Wireframe](assets/images/origamidesktop.png) 
 
-Another blue button should appear to click: _Open Browser_.
+[Porto Mobile Wireframe](assets/images/origamimobile.png)
+    
+    2.3-Lisboa page Wireframe
+[Lisboa Desktop Wireframe](assets/images/embroiderydesktop.png) 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+[Lisboa Mobile Wireframe](assets/images/embroiderymobile.png) 
 
-A blue button should appear to click: _Make Public_,
+    2.4-Algarve page Wireframe
+[Algarve Desktop Wireframe](assets/images/crochetdesktop.png) 
+    
+[Algarve Mobile Wireframe](assets/images/crochetmobile.png)
 
-Another blue button should appear to click: _Open Browser_.
+    2.5-Madeira page Wireframe
+[Madeira Desktop Wireframe](assets/images/contactsdesktop.png) 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+[Madeira Mobile Wireframe](assets/images/contactsmobile.png) 
 
-## Updates Since The Instructional Video
+    2.6-Hotels page Wireframe
+[Hotels Desktop Wireframe](assets/images/contactsdesktop.png) 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+[Hotels Mobile Wireframe](assets/images/contactsmobile.png) 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Design
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+    3.1- Color Scheme
+    The three colors used are green(rgb(22, 109, 105) and white.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+    3.2- Typography
+    In this website the titles are written in Cinzel while all the other text is Source Sans Pro. All of them are backed up by sans-serif. 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+    3.3- Images
+    Multiple images are included in the website to give context and information to the website.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Features
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+    4.1- Website designed to be responsive on all sizes;
+    4.2- Website uses Google maps Api to show the location of the cities and their atractions. On hotel page the google api autocompletes itself after being provided a city and shows all the hotels in the area.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Technologies Used
 
----
+### Languages Used
 
-Happy coding!
+    5.1- HTML5;
+   
+    5.2- CSS3;
+
+    5.3- Javascript
+
+### Frameworks, Libraries and Programs Used
+
+    6.1- Bootstrap 4.4.1:
+    Used to style and make website responsive;
+
+    6.2- Javascript:
+    Used to highlight where cursor is on the website on social media icons and navigation links. Also used tp integrate google maps API;
+
+    6.3- Google Fonts:
+    Used to style all the texts by importing Sofia, Dancing Steps, Roboto and Exo;
+
+    6.4- jQuery:
+    Used to make navigation bar responsive and make the dropdown button work;
+
+    6.5- GitHub:
+    Used to store and manage the project;
+
+    6.6- Balsamiq:
+    Used to create my Wireframes;
+
+    6.7-Google maps library:
+    Used to provide both maps, markers and autocomplete function.
+
+## Testing
+
+The website's code passed both W3C HTML5 test and CSS3 test.
+Also on hotels page a city needs to be provided. If any other characters that dont match a city name is provided then google maps wont change as it wont identify a city name on it's autocomplete function.
+
+### Testing User Stories
+
+1.1.1- As a user I need to navigate easily and fluidly through the website:
+
+    All Navigator links work perfectly and are responsive. Turns into dropdown menu when it is supose to;
+    Google maps works fluidly as intended;
+
+1.1.2- As a user I want to easily recognise what the website is about:
+
+    Home page clealy explains what contry we are talking about and its atractions together with all the images that relate to each of Portugal's cities;
+
+1.1.3- As a user I must be able to understand what diferent posibilities for holiday destinations have to offer:
+
+    Three different pages organise all the project in an easy to find and analise way;
+
+1.1.4- As a user I should be able to find what hotels are available all over Portugal:
+
+    The reviews are organised by what kind of products they refer to while being clear and simple;
+
+1.1.5- As a user I require an easy way to find an email in case I want further information:
+
+    Contact page is working as intended with well organised components;
+     
+
+## Further Testing
+
+    Website was tested on Firefox and Chrome on all diferent sizes from mobile to desktop.
+    Friends and family tested and critiqued website which helped with some last few design details.
+
+
+## Known Bugs
+
+    1-In Chrome, on the home page, when pressing the content headings a black margin shows up.
+    Simply changed border color to transparent.
+
+
+
+## Credits
+
+### Code 
+
+Contact page had code based on CV project provided by code institute with some changes.
+
+Details and summary code was based on youtube video "HTML5 Details and Summary Elements" on Steve Griffith channel.
+[Youtube link](https://www.youtube.com/watch?v=gPeYRBBaok0)
+
+### Content 
+
+    All content was written by the developer.
+
+### Media
+
+    All images are from the developer friends and family with permition from the people in question.
+
+## Deployment 
+
+### Github Pages 
+The project was deployed to GitHub Pages using the following steps:
+
+    1-Log in to GitHub and locate the GitHub Repository;
+
+    2-At the top of the Repository, press "Settings" Button;
+
+    3-Scroll down the Settings until the "GitHub Pages" Section.
+
+    4-Under "Source", click the dropdown and select "Master Branch".
+
+    5-After the page refreshes scroll back into the previous section and find the published site link.
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account so that we can modify it without being worried about changing the orinal repository.
+
+    1-To do this log in to GitHub and locate the GitHub Repository;
+
+    2-At the top of the Repository just above the "Settings" Button press the "Fork" Button;
+
+    3-You will now have a forked vertion of the original repository in your GitHub account;
+
+### Making a Local Clone
+
+    1-Log in to GitHub and locate the GitHub Repository;
+
+    2-Under the repository name, click "Clone or download";
+
+    3-To clone the repository using HTTPS, under "Clone with HTTPS", copy the link;
+
+    4-Open Git Bash;
+
+    5-Change the current working directory to the location where you want the cloned directory to be made;
+
+    6-Type git clone, and then paste the URL you copied previously;
+
+    7-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+    8-Press Enter. Your local clone will be created.
+
+## Acknoledgements
+
+My Mentor for guiding me in where to start with and all the support Code Institude has provided me.
+
