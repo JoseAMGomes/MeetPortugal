@@ -35,7 +35,7 @@ This website was created as a touristic guide for Portugal. Portugal has much to
 ### Design
 
     3.1- Color Scheme
-    The three colors used are green(rgb(22, 109, 105) and white.
+    The two colors used are green(rgb(22, 109, 105) and white.
 
     3.2- Typography
     In this website the titles are written in Cinzel while all the other text is Source Sans Pro. All of them are backed up by sans-serif. 
