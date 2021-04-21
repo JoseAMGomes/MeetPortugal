@@ -13,38 +13,24 @@ This website was created as a touristic guide for Portugal. Portugal has much to
         1.1.3- I must be able to understand what diferent posibilities for holiday destinations have to offer;
         1.1.4- I should be able to find what hotels are available all over Portugal;
         1.1.5- I require an easy way to find an email in case I want further information;
-
     
-    2.1-Homepage Wireframe
+2.1-Homepage Wireframe
+[index Desktop Wireframe](assets/images/INDEX_WIREFRAME.png) 
 
-[index Desktop Wireframe](assets/images/homedesktop.png) 
-
-[index Mobile Wireframe](assets/images/homemobile.png) 
-
-    2.2-Porto page Wireframe
-[Porto Desktop Wireframe](assets/images/origamidesktop.png) 
-
-[Porto Mobile Wireframe](assets/images/origamimobile.png)
+2.2-Porto page Wireframe
+[Porto Desktop Wireframe](assets/images/PORTO_WIREFRAME.png) 
     
-    2.3-Lisboa page Wireframe
-[Lisboa Desktop Wireframe](assets/images/embroiderydesktop.png) 
+2.3-Lisboa page Wireframe
+[Lisboa Desktop Wireframe](assets/images/LISBOA_WIREFRAME.png) 
 
-[Lisboa Mobile Wireframe](assets/images/embroiderymobile.png) 
+2.4-Algarve page Wireframe
+[Algarve Desktop Wireframe](assets/images/ALGARVE_WIREFRAME.png) 
 
-    2.4-Algarve page Wireframe
-[Algarve Desktop Wireframe](assets/images/crochetdesktop.png) 
-    
-[Algarve Mobile Wireframe](assets/images/crochetmobile.png)
+2.5-Madeira page Wireframe
+[Madeira Desktop Wireframe](assets/images/MADEIRA_WIREFRAME.png) 
 
-    2.5-Madeira page Wireframe
-[Madeira Desktop Wireframe](assets/images/contactsdesktop.png) 
-
-[Madeira Mobile Wireframe](assets/images/contactsmobile.png) 
-
-    2.6-Hotels page Wireframe
-[Hotels Desktop Wireframe](assets/images/contactsdesktop.png) 
-
-[Hotels Mobile Wireframe](assets/images/contactsmobile.png) 
+ 2.6-Hotels page Wireframe
+[Hotels Desktop Wireframe](assets/images/HOTELS_WIREFRAMES.png) 
 
 ### Design
 
