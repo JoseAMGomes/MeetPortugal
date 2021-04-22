@@ -26,23 +26,13 @@
 .navbar {
     text-align: center;
     line-height: 50px;
-}
-
-.big-image {
-
-    background-image: url("../images/portugal.png");
-    height: 50vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 1;
-
+    width: 100%;
 }
 
 .big-imagePorto {
 
     background-image: url("../images/porto.jpg");
-    height: 50vh;
+    height: 30vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,7 +43,7 @@
 .big-imageLisboa {
 
     background-image: url("../images/lisboa.jpg");
-    height: 50vh;
+    height: 30vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,7 +54,7 @@
 .big-imageAlgarve {
 
     background-image: url("../images/Algarve.jpg");
-    height: 50vh;
+    height: 30vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -75,7 +65,7 @@
 .big-imageMadeira {
 
     background-image: url("../images/madeira.jpg");
-    height: 50vh;
+    height: 30vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -86,7 +76,7 @@
 .big-imageHotels {
 
     background-image: url("../images/hotels.jpg");
-    height: 50vh;
+    height: 30vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -112,7 +102,7 @@
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 40px;
     text-align: center;
     font-family: "cinzel", sans-serif;
     color: rgb(22, 109, 105);
@@ -123,7 +113,7 @@ h2 {
 
 .main-text {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     text-align: justify;
     margin: 50px auto;
     width: 80%;
@@ -189,7 +179,7 @@ body {
 }
 
 table {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .hotel-search {
@@ -205,11 +195,13 @@ table {
     top: 0px;
     width: 80%;
     z-index: 1;
+    font-size: 50px;
 }
 
 #map {
     margin: 50px auto;
     width: 90%;
+    height: 90%;
 }
 
 #listing {
@@ -228,9 +220,25 @@ table {
     -ms-flex: 1 1 190px;
     flex: 1 1 190px;
     margin: 0 auto;
-    max-width: 50%;
-    height: 40px;
+    max-width: 80%;
+    height: 100px;
 
+}
+
+.pac-item-query {
+    font-size: 20px;
+}
+
+.pac-item {
+    font-size: 20px;
+}
+
+.pac-item-container {
+    font-size: 20px;
+}
+
+.pac-item-matched {
+    font-size: 20px;
 }
 
 #controls {
@@ -241,10 +249,7 @@ table {
 
 #autocomplete {
     width: 100%;
-}
-
-#country {
-    width: 100%;
+    font-size: 25px;
 }
 
 .placeIcon {
@@ -280,4 +285,70 @@ table {
 
 .iw_table_icon {
     text-align: right;
+}
+
+
+
+
+
+@media(min-width: 992px) {
+
+
+
+    .big-imagePorto {
+
+        background-image: url("../images/porto.jpg");
+        height: 50vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 1;
+
+    }
+
+    .big-imageLisboa {
+
+        background-image: url("../images/lisboa.jpg");
+        height: 50vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 1;
+
+    }
+
+    .big-imageAlgarve {
+
+        background-image: url("../images/Algarve.jpg");
+        height: 50vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 1;
+
+    }
+
+    .big-imageMadeira {
+
+        background-image: url("../images/madeira.jpg");
+        height: 50vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 1;
+
+    }
+
+    .big-imageHotels {
+
+        background-image: url("../images/hotels.jpg");
+        height: 50vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 1;
+
+    }
+
+
 }
