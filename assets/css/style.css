@@ -159,7 +159,7 @@ footer {
 
 }
 
-div #map {
+#map {
     min-height: 360px;
     width: 90%;
     margin: 0px auto;
@@ -169,14 +169,16 @@ div #map {
 
  /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
-#map {
-    height: 100%;
+#size {
+    min-height: calc(100vh - 100px);
 }
+
+
 
 /* Optional: Makes the sample page fill the window. */
 html,
 body {
-    height: 600px;
+
     margin: 0;
     padding: 0;
     width: 100%;
@@ -201,7 +203,7 @@ table {
     left: 0;
     position: absolute;
     top: 0px;
-    width: 50%;
+    width: 80%;
     z-index: 1;
 }
 
@@ -221,16 +223,14 @@ table {
     overflow-x: hidden;
 }
 
-#findhotels {
-    font-size: 25px;
-    font-family: "cinzel", sans-serif;
-}
-
 #locationField {
     -webkit-box-flex: 1 1 190px;
     -ms-flex: 1 1 190px;
     flex: 1 1 190px;
-    margin: 0 8px;
+    margin: 0 auto;
+    max-width: 50%;
+    height: 40px;
+
 }
 
 #controls {
