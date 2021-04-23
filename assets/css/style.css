@@ -13,11 +13,21 @@
     color: rgb(22, 109, 105);
 }
 
-h3 {
-    color: rgb(22, 109, 105);
-    font-family: 'cinzel', sans-serif;
+#imagemoreinfo {
+    text-align: center;
+    margin: 30px auto;
+    width: 80%;
 }
 
+#atraction1,
+#atraction2,
+#atraction3 {
+    text-align: center;
+}
+
+#imageposition {
+    text-align: center;
+}
 
 .TuristicPlaces {
     font-family: "cinzel", sans-serif;

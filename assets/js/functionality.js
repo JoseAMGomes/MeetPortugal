@@ -51,9 +51,9 @@ function initMap() {
     places = new google.maps.places.PlacesService(map);
     autocomplete.addListener("place_changed", onPlaceChanged);
     // Add a DOM event listener to react when the user selects a country.
-    document
-        .getElementById("country")
-        .addEventListener("change", setAutocompleteCountry);
+    //document
+    // .getElementById("country")
+    //.addEventListener("change", setAutocompleteCountry);
 }
 
 // When the user selects a city, get the place details for the city and
@@ -101,6 +101,7 @@ function search() {
                     markers[i],
                     "click",
                     showInfoWindow
+
                 );
                 setTimeout(dropMarker(i), i * 100);
                 addResult(results[i], i);
@@ -108,6 +109,7 @@ function search() {
         }
     });
 }
+
 
 function clearMarkers() {
     for (let i = 0; i < markers.length; i++) {
@@ -162,16 +164,20 @@ function addResult(result, i) {
     const iconTd = document.createElement("td");
     const nameTd = document.createElement("td");
     const icon = document.createElement("img");
+    const name = document.createTextNode(result.name);
+    nameTd.appendChild(name);
     icon.src = markerIcon;
     icon.setAttribute("class", "placeIcon");
     icon.setAttribute("className", "placeIcon");
-    const name = document.createTextNode(result.name);
     iconTd.appendChild(icon);
-    nameTd.appendChild(name);
-    tr.appendChild(iconTd);
     tr.appendChild(nameTd);
+    tr.appendChild(iconTd);
     results.appendChild(tr);
+
 }
+
+console.log(results);
+
 
 function clearResults() {
     const results = document.getElementById("results");
@@ -197,7 +203,6 @@ function showInfoWindow() {
         }
     );
 }
-
 
 // Load the place information into the HTML elements used by the info window.
 function buildIWContent(place) {
