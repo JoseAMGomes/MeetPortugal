@@ -3,7 +3,7 @@
 # MEETPORTUGAL website
 [View the live project!](https://joseamgomes.github.io/CRAFTIEYANIE/)
 
-This website was created as a touristic guide for Portugal. Portugal has much to offer and most people only know about the famous Algarve area or Lisbon so even though they are great places to visit I wanted to include some other great areas!
+This website was created as a touristic guide for Portugal mostly focused on hotel search. Portugal has much to offer and most people only know about the famous Algarve area or Lisbon so even though they are great places to visit I wanted to include some other great areas!
 ## User Experience (UX)
  ### User Stories
      
@@ -28,9 +28,6 @@ This website was created as a touristic guide for Portugal. Portugal has much to
 
 2.5-Madeira page Wireframe
 [Madeira Desktop Wireframe](assets/images/MADEIRA_WIREFRAME.png) 
-
- 2.6-Hotels page Wireframe
-[Hotels Desktop Wireframe](assets/images/HOTELS_WIREFRAMES.png) 
 
 ### Design
 
@@ -64,10 +61,10 @@ This website was created as a touristic guide for Portugal. Portugal has much to
     Used to style and make website responsive;
 
     6.2- Javascript:
-    Used to highlight where cursor is on the website on social media icons and navigation links. Also used tp integrate google maps API;
+    Used to toggle content and also to highlight in a diferent color all the text that can be toggled. Also used tp integrate google maps API;
 
     6.3- Google Fonts:
-    Used to style all the texts by importing Sofia, Dancing Steps, Roboto and Exo;
+    Used to style all the texts by importing Cinzel and Source Sans Pro;
 
     6.4- jQuery:
     Used to make navigation bar responsive and make the dropdown button work;
@@ -84,6 +81,7 @@ This website was created as a touristic guide for Portugal. Portugal has much to
 ## Testing
 
 The website's code passed both W3C HTML5 test and CSS3 test.
+
 Also on hotels page a city needs to be provided. If any other characters that dont match a city name is provided then google maps wont change as it wont identify a city name on it's autocomplete function.
 
 ### Testing User Stories
@@ -93,21 +91,82 @@ Also on hotels page a city needs to be provided. If any other characters that do
     All Navigator links work perfectly and are responsive. Turns into dropdown menu when it is supose to;
     Google maps works fluidly as intended;
 
+    Test #: 1
+    Action Taken: Click on "MEETPORTUGAL" in Nav bar
+    ﻿"Before" State: No hoover or change.
+    ﻿"After" State: index.html was loaded when pressing logo on whatever page we are located.
+    ﻿Test Result: Successful
+    
+    Test #: 2
+    Action Taken: Click on "Porto" in Nav bar
+    ﻿"Before" State: Porto link had underline while hoovered on all pages.
+    ﻿"After" State: Porto.html was loaded when pressing Porto link on whatever page we are located.
+    ﻿Test Result: Successful
+
+    Test #: 3
+    Action Taken: Click on "Lisbon" in Nav bar
+    ﻿"Before" State: Lisbon link had underline while hoovered on all pages.
+    ﻿"After" State: Lisbon.html was loaded when pressing Lisbon link on whatever page we are located.
+    ﻿Test Result: Successful
+
+    Test #: 4
+    Action Taken: Click on "Algarve" in Nav bar
+    ﻿"Before" State: Algarve link had underline while hoovered on all pages.
+    ﻿"After" State: Algarve.html was loaded when pressing Algarve link on whatever page
+    ﻿Test Result: Successful
+
+    Test #: 5
+    Action Taken: Click on "Madeira" in Nav bar
+    ﻿"Before" State: Madeira link had underline while hoovered on all pages.
+    ﻿"After" State: Madeira.html was loaded when pressing Madeira link on whatever page
+    ﻿Test Result: Successful
+
+   
+
+
 1.1.2- As a user I want to easily recognise what the website is about:
 
-    Home page clealy explains what contry we are talking about and its atractions together with all the images that relate to each of Portugal's cities;
+    Home page clealy explains what contry we are talking about by restricting the search to Portugal and the map autofocusing there. Search box place holder also atutomaticly asks for a Portuguese city.
+Test #: 1
+Action Taken: Tried finding Barcelona on search
+﻿"Before" State:"Find a portuguese city".
+﻿"After" State: Autocomplete only suggested Portuguese cities unti it stoped giving me results.
+﻿Test Result: Successful
+    
 
 1.1.3- As a user I must be able to understand what diferent posibilities for holiday destinations have to offer:
 
-    Three different pages organise all the project in an easy to find and analise way;
+    Four different destinations are further analised on the project in an easy to understand  way;
+
+    Test #: 1
+    Action Taken: Tried toggles
+    ﻿"Before" State:"Question toggles are automaticly open while atraction toggles are closed by default".
+    ﻿"After" State: Both question toggles were able to be closed while atraction toggles were openable.
+    ﻿Test Result: Successful
+
+    Test #: 2
+    Action Taken: Tried mouseenter
+    ﻿"Before" State:"Question and atraction names are green".
+    ﻿"After" State: Both question and atractions names turn red when the mouse enters making the user understand the are clicable.
+    ﻿Test Result: Successful
+
+
+
+    
 
 1.1.4- As a user I should be able to find what hotels are available all over Portugal:
 
     The reviews are organised by what kind of products they refer to while being clear and simple;
+     Test #: 1
+    Action Taken: Tried remote vilages (Aves)
+    ﻿"Before" State:"Map focused on Portugal by default".
+    ﻿"After" State: Searched Aves and it found 2 hotels giving me the correct info-window on each.
+    ﻿Test Result: Successful
+
 
 1.1.5- As a user I require an easy way to find an email in case I want further information:
 
-    Contact page is working as intended with well organised components;
+    Footer clearly show email and is present on all pages.
      
 
 ## Further Testing
